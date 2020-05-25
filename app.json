@@ -22,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.truman.movie-night"
+    },
+    "android": {
+      "package": "com.truman.movie-night"
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
